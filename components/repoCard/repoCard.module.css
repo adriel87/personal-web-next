@@ -1,0 +1,9 @@
+.alink {
+	margin: 20px auto;
+	width: 200px;
+	height: 200px;
+}
+.header {
+	position: absolute;
+	top: 0;
+}
