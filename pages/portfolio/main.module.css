@@ -16,10 +16,13 @@
 
 .container {
 	margin-bottom: 60px;
+	height: 100%;
+	padding-top: 10px;
 }
 
 @media (min-width: 724px) {
 	.container {
 		margin-bottom: 0;
+		margin-top: 60px;
 	}
 }
