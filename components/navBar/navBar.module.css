@@ -1,0 +1,17 @@
+.container {
+	height: 60px;
+	position: fixed;
+	bottom: 0;
+	z-index: 10;
+	background-color: #6246ea;
+}
+@media (min-width: 724px) {
+	.container {
+		top: 0;
+	}
+}
+
+.text {
+	text-align: center;
+	font-weight: bold;
+}

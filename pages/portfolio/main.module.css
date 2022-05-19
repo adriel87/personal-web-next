@@ -13,3 +13,13 @@
 .icon {
 	align-self: center;
 }
+
+.container {
+	margin-bottom: 60px;
+}
+
+@media (min-width: 724px) {
+	.container {
+		margin-bottom: 0;
+	}
+}
