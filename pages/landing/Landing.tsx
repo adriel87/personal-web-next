@@ -1,4 +1,4 @@
-import { Avatar, Card, Container, Image, Spacer, Text } from "@nextui-org/react"
+import { Card, Container, Spacer, Text } from "@nextui-org/react"
 import { useRouter } from "next/router"
 import RoundedAvatar from "../../components/RoundedAvatar"
 import ShortInfo from "../../components/shortInfo/ShortInfo"
@@ -17,6 +17,7 @@ const Landing = () => {
 
 	const handleBlogButton = async () => {
 		await setTimeout(() => {
+			router.push("/about/MyPersonalInfo", "About me")
 			console.log("aqui va la ruta del blog")
 		}, 350)
 	}

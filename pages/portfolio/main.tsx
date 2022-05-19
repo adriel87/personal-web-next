@@ -31,8 +31,6 @@ const main = ({ allPostsData }: AllPostsData) => {
 				xs
 				css={{
 					backgroundColor: "$secondary",
-					height: "100%",
-					paddingTop: "10px",
 				}}>
 				<Row wrap='wrap' justify='space-evenly' align='center'>
 					<Col>
