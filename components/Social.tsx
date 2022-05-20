@@ -12,7 +12,7 @@ interface Props {
 	color?: string
 }
 
-const Social = ({ fontsize, color = "#e45858" }: Props) => {
+const Social = ({ fontsize, color = "#6246ea" }: Props) => {
 	return (
 		<Container
 			display='flex'
