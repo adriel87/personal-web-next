@@ -8,3 +8,35 @@
 		margin-top: 60px;
 	}
 }
+
+.paragraph {
+	font-size: 18px;
+	margin-bottom: 7px;
+}
+
+@media (min-width: 724px) {
+	.paragraph {
+		font-size: 20px;
+	}
+}
+
+.wife,
+.octopus {
+	font-size: 18px;
+}
+
+.wife {
+	background-color: rgba(236, 133, 188, 0.425);
+	padding: 10px;
+	border-radius: 12px;
+}
+.octopus {
+	background-color: rgba(133, 236, 205, 0.425);
+	padding: 10px;
+	border-radius: 12px;
+}
+
+.wife span,
+.octopus span {
+	font-size: 30px;
+}
