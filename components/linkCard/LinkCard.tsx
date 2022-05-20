@@ -5,9 +5,7 @@ interface Props {
 	text: string
 }
 
-const voidazo = () => {}
-
-const LinkCard = ({ routerFunction, text }) => {
+const LinkCard = ({ routerFunction, text }: Props) => {
 	return (
 		<Card
 			onClick={routerFunction}
@@ -16,7 +14,7 @@ const LinkCard = ({ routerFunction, text }) => {
 			css={{
 				backgroundColor: "$button",
 				maxWidth: "400px",
-				margin: "0 auto",
+				margin: "3px auto",
 			}}>
 			<Text
 				h3

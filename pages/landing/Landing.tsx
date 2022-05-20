@@ -1,7 +1,7 @@
-import { Container, Row, Col, Text } from "@nextui-org/react"
+import { Container, Row, Col, Text, Popover, Button } from "@nextui-org/react"
 import { useRouter } from "next/router"
 import LinkCard from "../../components/linkCard/LinkCard"
-import RoundedAvatar from "../../components/RoundedAvatar"
+import RoundedAvatar from "../../components/roundedAvatar/RoundedAvatar"
 import ShortInfo from "../../components/shortInfo/ShortInfo"
 import Social from "../../components/Social"
 
@@ -32,7 +32,7 @@ const Landing = () => {
 			</Row>
 			<Row>
 				<Col>
-					<RoundedAvatar />
+					<RoundedAvatar info />
 					<ShortInfo />
 					<LinkCard
 						routerFunction={() => {
