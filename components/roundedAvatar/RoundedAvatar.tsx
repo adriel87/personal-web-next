@@ -34,7 +34,7 @@ const RoundedAvatar = ({ info = false, size = 200 }: Props) => {
 					</Popover.Trigger>
 					<Popover.Content>
 						<Text css={{ p: "$10" }}>
-							Quieres saber algo mas de mi pincha el pulpo
+							Quieres saber algo más de mi pincha el pulpo
 						</Text>
 						<Text className={style.octopus} onClick={handleOctopus} size={50}>
 							🐙

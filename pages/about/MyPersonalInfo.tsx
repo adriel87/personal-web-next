@@ -6,11 +6,11 @@ const MyPersonalInfo = () => {
 	return (
 		<>
 			<NavBar />
-			<Container className={style.container}>
+			<Container fluid className={style.container}>
 				<Row>
 					<Col>
 						<Text h1>
-							<span>👋</span> soy Adriel
+							<span>👋</span> Soy Adriel
 						</Text>
 						<Image
 							src='/images/profile.jpg'
@@ -29,9 +29,9 @@ const MyPersonalInfo = () => {
 							👶🏽...
 						</Text>
 						<Text className={style.paragraph}>
-							Igual empiezo muy atras, mejor te digo por que empece en el mundo
-							de la programacion. Siempre me ha gustado todo lo relacionado con
-							la tecnologia, desde como funciona resorte hasta los viajes 🚀 a
+							Igual empiezo muy atrás, mejor te digo por que empece en el mundo
+							de la programación. Siempre me ha gustado todo lo relacionado con
+							la tecnología, desde como funciona resorte hasta los viajes 🚀 a
 							la luna 🌖.
 						</Text>
 						<Text className={style.paragraph}>
@@ -40,7 +40,7 @@ const MyPersonalInfo = () => {
 
 						<Text className={style.paragraph}>
 							<p className={style.wife}>
-								<span>🦆</span> me voy a apuntar a un ciclo de programacion
+								<span>🦆</span> me voy a apuntar a un ciclo de programación
 							</p>
 							<p className={style.octopus}>
 								<span>🐙</span> Que bien y eso mi vida ?
@@ -71,7 +71,7 @@ const MyPersonalInfo = () => {
 						{/* TODO meter una cuenta regresiva para el ciclo */}
 						<Text className={style.paragraph}>
 							Pues actualmente sigo cursando el ciclo superior, trabajando
-							haciendo cerveza 🍺 y por si no es suficiente empiezo un Bootcamp
+							haciendo cerveza 🍺 y por si no es suficiente empiezo un bootcamp
 						</Text>
 						<Text className={style.paragraph}>
 							Si lo se igual parece mucho. ¿y sabes que? Es mucho literalmente
@@ -84,14 +84,14 @@ const MyPersonalInfo = () => {
 				</Row>
 				<Row>
 					<Col>
-						<Text h2>Solo amo Progr... QUE VA !!</Text>
+						<Text h2>Solo amo progr... Que va !!</Text>
 						<Text className={style.paragraph}>
 							Me encanta escalar 🧗🏾‍♂️y lo que conlleva como entrenar y tener una
-							valvula de escape. Por que literalmente es una actividad que
-							demanda tanto 🧠 como 💪🏻.
+							válvula de escape. Por que literalmente es una actividad que
+							demanda tanto 🧠 como 💪🏻
 						</Text>
 						<Text className={style.paragraph}>
-							🐠🤿🐙 Bucear, impresionante un mundo completamente nuevo
+							🐠🤿🐙 Bucear, impresionante un mundo completamente nuevo.
 						</Text>
 						<Text className={style.paragraph}>
 							vamos me gusta el deporte en general y jugar a casi cualquier cosa
@@ -99,12 +99,12 @@ const MyPersonalInfo = () => {
 						</Text>
 						<Text className={style.paragraph}>
 							🎮 Soy gamer desde que mis padres me compraron una master system,
-							alla por el 92
+							allá por el 92.
 						</Text>
 						<Text className={style.paragraph}>
-							Leer, pues ahora leo documentacion tecnica y como aplicar tdd 😂
-							aunque mi genero literario preferido seria la fantasia epica 🧙‍♂️ y
-							leer mangas
+							Leer, pues ahora leo documentación técnica y como aplicar tdd 😂
+							aunque mi genero literario preferido seria la fantasia épica 🧙‍♂️ y
+							leer mangas.
 						</Text>
 					</Col>
 				</Row>
@@ -113,7 +113,7 @@ const MyPersonalInfo = () => {
 					<Col>
 						<Text h2>Next steps 👣</Text>
 						<Text className={style.paragraph}>
-							seguir desarrollandome como desarrollador, buscar activamente
+							Seguir formándome como desarrollador, buscar activamente
 							oportunidades tanto freelance como por cuenta ajena
 						</Text>
 					</Col>
@@ -123,10 +123,10 @@ const MyPersonalInfo = () => {
 						<Text h2>No me voy sin dar las gracias</Text>
 						<Text className={style.paragraph}>
 							Primero a ti que te has molestado en leer la chapa... y ahora a la
-							gente que quiero
+							gente que quiero 😍
 						</Text>
 						<Text className={style.paragraph}>
-							Gracias Idaira por siempre creer en mi apoyarme y ser mi amiga y
+							Gracias Idaira por siempre creer en mi, apoyarme, ser mi amiga y
 							esposa TE AMO 🦆
 						</Text>
 						<Text className={style.paragraph}>
@@ -134,7 +134,7 @@ const MyPersonalInfo = () => {
 						</Text>
 						<Text className={style.paragraph}>
 							Gracias a mi hermana Raquel es por ella que tengo las fotos del
-							portfolio 📸, bueno cuando escribi esto no las habia editado
+							portfolio 📸, bueno cuando escribí esto no las había editado
 						</Text>
 						<Text className={style.paragraph}>
 							Gracias Jota sin lugar a dudas el mejor profesor que un estudiante
@@ -144,12 +144,14 @@ const MyPersonalInfo = () => {
 				</Row>
 				<Row>
 					<Col>
-						<Text h2>👇👇Mis Redes👇👇</Text>
+						<Text css={{ textAlign: "center" }} h2>
+							👇👇Mis Redes👇👇
+						</Text>
 					</Col>
 				</Row>
 				<Row>
 					<Col>
-						<Social fontsize={60} color={"tertiary"} />
+						<Social fontsize={60} />
 					</Col>
 				</Row>
 			</Container>

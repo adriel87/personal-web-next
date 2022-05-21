@@ -14,13 +14,9 @@ const Landing = () => {
 		<Container
 			xs
 			display='flex'
-			// justify='space-evenly'
-			// alignItems='center'
-			// direction='column'
 			css={{
 				backgroundColor: "$main",
 				height: "100vh",
-				// margin: "auto",
 			}}>
 			<Row
 				justify='center'

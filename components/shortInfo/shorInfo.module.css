@@ -8,3 +8,13 @@
 		font-size: 50px;
 	}
 }
+
+.underText {
+	font-size: 20px;
+}
+
+@media (min-width: 720px) {
+	.underText {
+		font-size: 30px;
+	}
+}
