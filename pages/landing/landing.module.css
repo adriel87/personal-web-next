@@ -1,0 +1,26 @@
+.name {
+	font-size: 2.3rem;
+	text-align: center;
+}
+
+@media (min-height: 668px) {
+	.name {
+		font-size: 80px;
+	}
+
+	.name span {
+		display: none;
+	}
+}
+
+.lastName {
+	display: none;
+	text-align: center;
+}
+
+@media (min-height: 668px) {
+	.lastName {
+		display: block;
+		font-size: 80px;
+	}
+}

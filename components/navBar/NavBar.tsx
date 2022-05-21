@@ -35,7 +35,7 @@ const NavBar = () => {
 				</Col>
 				<Col className={style.col}>
 					<Link href={"/portfolio/main"}>
-						<a className={style.anchor}>PORTOFOLIO</a>
+						<a className={style.anchor}>PORTFOLIO</a>
 					</Link>
 
 					<AiFillFolderOpen

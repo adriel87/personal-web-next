@@ -9,14 +9,14 @@
 }
 @media (min-width: 400px) {
 	.info {
-		right: 2%;
-		top: 26%;
+		right: 20%;
+		top: 20%;
 	}
 }
 @media (min-width: 650px) {
 	.info {
 		right: 23%;
-		top: 25%;
+		top: 22%;
 	}
 }
 .icon {

@@ -4,6 +4,7 @@ import LinkCard from "../../components/linkCard/LinkCard"
 import RoundedAvatar from "../../components/roundedAvatar/RoundedAvatar"
 import ShortInfo from "../../components/shortInfo/ShortInfo"
 import Social from "../../components/Social"
+import style from "./landing.module.css"
 
 const Landing = () => {
 	const router = useRouter()
@@ -13,19 +14,21 @@ const Landing = () => {
 		<Container
 			xs
 			display='flex'
-			justify='space-evenly'
-			alignItems='center'
-			direction='column'
 			css={{
-				height: "100vh",
 				backgroundColor: "$main",
+				height: "100vh",
 			}}>
-			<Row justify='center' align='center'>
+			<Row
+				justify='center'
+				align='center'
+				css={{
+					marginBottom: "10px",
+				}}>
 				<Col>
-					<Text css={{ textAlign: "center" }} h1 color='$tertiary' size={80}>
-						Adriel
+					<Text className={style.name} h1 color='$tertiary'>
+						Adriel <span>Oronoz</span>
 					</Text>
-					<Text css={{ textAlign: "center" }} h1 color='$tertiary' size={80}>
+					<Text className={style.lastName} h1 color='$tertiary'>
 						Oronoz
 					</Text>
 				</Col>

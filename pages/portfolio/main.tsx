@@ -43,7 +43,7 @@ const main = ({ allPostsData }: AllPostsData) => {
 								General
 							</Text>
 							<Text size={TEXT_SIZE}>
-								siempre que me pongo a programar intento ser bastante claro con
+								Siempre que me pongo a programar intento ser bastante claro con
 								lo que quiero hacer, mi ideal seria aplicar siempre de manera
 								perfecta los principios SOLID en todos y cada uno de mis
 								proyectos
@@ -54,11 +54,11 @@ const main = ({ allPostsData }: AllPostsData) => {
 					<Col>
 						<Card className={style.card}>
 							<Text h2 color='$headline'>
-								backend ⚙️🗄️👨‍💻
+								Backend ⚙️🗄️👨‍💻
 							</Text>
 							<Text size={TEXT_SIZE}>Diseño - Arquitectura - Performance</Text>
 							<Text size={TEXT_SIZE}>
-								Podria decir que el back me da dolores de cabeza y tambien que
+								Podría decir que el back me da dolores de cabeza y también que
 								es lo que mas me divierte
 							</Text>
 							<BackendSkills />
@@ -68,11 +68,11 @@ const main = ({ allPostsData }: AllPostsData) => {
 					<Col>
 						<Card className={style.card}>
 							<Text h2 color='$headline'>
-								Frontedn 🖥️ 💅
+								Frontend 🖥️ 💅
 							</Text>
 							<Text size={TEXT_SIZE}>
 								Que la comida 🍜 entra por los ojos es verdad, pues una app
-								tambien
+								también
 							</Text>
 							<FrontendSkills />
 							<RepoGrid repositories={frontRepositories} />
@@ -84,7 +84,7 @@ const main = ({ allPostsData }: AllPostsData) => {
 								Mobile 📱
 							</Text>
 							<Text size={TEXT_SIZE}>
-								siempre lo tienes en la palma de tu mano
+								Siempre lo tienes en la palma de tu mano
 							</Text>
 							<RepoGrid repositories={mobileRepositories} />
 						</Card>

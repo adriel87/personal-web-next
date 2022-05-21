@@ -12,13 +12,13 @@ const ShortInfo = () => {
 			<Text color='$tertiary' className={styles.text} h2>
 				Desarrollador 📱 🖥
 			</Text>
-			<Text size={20} color='$paragraph'>
+			<Text className={styles.underText} color='$paragraph'>
 				cuando me dejan
 			</Text>
 			<Text color='$tertiary' className={styles.text} h2>
 				Escalador 🧗‍♀️
 			</Text>
-			<Text size={20} color='$paragraph'>
+			<Text className={styles.underText} color='$paragraph'>
 				siempre que puedo
 			</Text>
 		</Container>
