@@ -58,13 +58,13 @@ const NavBar = () => {
 					/>
 				</Col>
 				<Col className={style.col}>
-					<Link href={"/"}>
+					<Link href={"/blog/Index"}>
 						<a className={style.anchor}>BLOG</a>
 					</Link>
 
 					<FaBlog
 						onClick={() => {
-							handlerRouter("/")
+							handlerRouter("/blog/Index")
 						}}
 						className={style.icon}
 					/>
