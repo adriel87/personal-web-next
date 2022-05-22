@@ -1,5 +1,16 @@
+.container {
+	margin-bottom: 60px;
+}
+
+@media (min-width: 724px) {
+	.container {
+		margin-bottom: 0;
+		margin-top: 60px;
+	}
+}
+
 .odd {
-	background-color: #eed0d0;
+	background-color: #eed0d07c;
 	padding: 3px;
 	border-radius: 12px;
 	margin: 3px;
@@ -7,7 +18,7 @@
 }
 
 .even {
-	background-color: #c9ecc0;
+	background-color: #c9ecc085;
 	padding: 3px;
 	border-radius: 12px;
 	margin: 3px;

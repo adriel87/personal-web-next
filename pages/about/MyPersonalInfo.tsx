@@ -140,6 +140,20 @@ const MyPersonalInfo = () => {
 							Gracias Jota sin lugar a dudas el mejor profesor que un estudiante
 							puede tener 🧑‍🏫
 						</Text>
+						<Text className={style.paragraph}>
+							A mis compañeros de JotaTeam que juntos vamos a lograr grandes
+							cosas <span className={style.laura}>Laura</span>,{" "}
+							<span className={style.abigail}>Abi</span> y{" "}
+							<span className={style.nestor}>Nestor</span> somos los power
+							ranger.
+						</Text>
+						<Text className={style.paragraph}>
+							Por último pero no menos importante gracias a la gente que
+							comparte tanto su conocimiento como sus experiencias, en especial{" "}
+							<span className={style.person}>@carlosazaustre</span>{" "}
+							<span className={style.person}>@miriamgonp</span>{" "}
+							<span className={style.person}>@dawntraoz</span>
+						</Text>
 					</Col>
 				</Row>
 				<Row>
