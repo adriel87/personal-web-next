@@ -41,3 +41,29 @@
 .octopus span {
 	font-size: 30px;
 }
+
+.person {
+	padding: 4px;
+	border-radius: 12px;
+	background-color: rgba(169, 94, 240, 0.507);
+	font-weight: bold;
+}
+
+.nestor {
+	padding: 4px;
+	border-radius: 12px;
+	background-color: rgba(48, 211, 26, 0.432);
+	font-weight: bold;
+}
+.laura {
+	padding: 4px;
+	border-radius: 12px;
+	background-color: #ac6ed3c5;
+	font-weight: bold;
+}
+.abigail {
+	padding: 4px;
+	border-radius: 12px;
+	background-color: rgba(250, 99, 250, 0.507);
+	font-weight: bold;
+}

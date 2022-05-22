@@ -4,17 +4,18 @@ body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	background-color: #fffffe;
 }
 
 * {
 	box-sizing: border-box;
 }
 
-.buttons {
+/* .buttons {
 	height: 150px;
 }
 @media (min-width: 724px) {
 	.buttons {
 		height: 200px;
 	}
-}
+} */
