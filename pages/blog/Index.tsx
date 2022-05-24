@@ -3,6 +3,8 @@ import { getSortedPostsData } from "../../utils/posts"
 import { useRouter } from "next/router"
 import style from "./blog.module.css"
 import NavBar from "../../components/navBar/NavBar"
+import BlogTag from "../../components/blogTag/BlogTag"
+import { tags } from "../../components/blogTag/BlogTag"
 
 interface Props {
 	posts: post[]
@@ -12,10 +14,13 @@ interface post {
 	id: string
 	title: string
 	date: string
+	tags: tags
 }
 
 const Index = ({ posts }: Props) => {
-	console.log(posts)
+	// console.log(posts)
+
+	// TODO hacer validacion de tipo con los tags
 
 	const route = useRouter()
 
@@ -53,6 +58,7 @@ const Index = ({ posts }: Props) => {
 									<Link css={{ margin: "$3" }} href={`/posts/${post.id}`}>
 										{post.title}
 									</Link>
+									<BlogTag tag={post.tags} />
 								</Row>
 								<Row css={{ margin: "$2" }}>
 									<Text>{post.date}</Text>
