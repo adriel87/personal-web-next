@@ -13,7 +13,7 @@ const RoundedAvatar = ({ info = false, size = 200 }: Props) => {
 
 	const handleOctopus = () => route.push("/about/MyPersonalInfo")
 	return (
-		<Container>
+		<Container className={style.container}>
 			<Image
 				showSkeleton
 				width={size}
