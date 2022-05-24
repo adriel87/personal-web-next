@@ -1,24 +1,29 @@
+.container {
+	position: relative;
+	width: 300px;
+}
+
 .info {
 	position: absolute;
 	width: 75px;
 	height: 75px;
 
-	right: 0%;
-	top: 28%;
+	right: -30px;
+	top: 130px;
 	background-color: transparent;
 }
-@media (min-width: 400px) {
+/* @media (min-width: 400px) {
 	.info {
-		right: 20%;
-		top: 20%;
+		right: 0;
+		top: 0;
 	}
 }
 @media (min-width: 650px) {
 	.info {
-		right: 23%;
-		top: 22%;
+		right: 0;
+		top: 0;
 	}
-}
+} */
 .icon {
 	width: 50px;
 	height: 50px;
